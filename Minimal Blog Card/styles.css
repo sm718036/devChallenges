@@ -16,8 +16,8 @@ body {
 
 .card {
   width: 368px;
-  height: 380px;
-  padding: 16px 16px 20px 16px;
+  height: 400px;
+  padding: 16px 0 20px 0;
   box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
   border-radius: 10px;
 }
@@ -29,6 +29,10 @@ body {
 
 .card-img>img {
   border-radius: 5px;
+}
+
+.card>div{
+  padding: 0 16px;
 }
 
 .category {
@@ -49,6 +53,7 @@ body {
 .description {
   font-size: 0.875rem;
   margin-bottom: 20px;
+  color: #394150;
 }
 
 hr {
@@ -60,4 +65,6 @@ hr {
 .author {
   font-size: 0.75rem;
   margin-top: 20px;
+  padding-left: 16px;
+  color: #394150;
 }
